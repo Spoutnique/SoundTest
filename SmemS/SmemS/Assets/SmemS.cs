@@ -93,5 +93,9 @@ public class SmemS : MonoBehaviour {
 		PlayCBtext.text = T[i].name;
 		}
 		
-
+	public void SetRBGYMLEADER () {
+		i = 5;
+		//musicBox.clip = T[i];
+		PlayCBtext.text = T[i].name;
+	}
 }
